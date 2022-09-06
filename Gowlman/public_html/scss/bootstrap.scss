@@ -1,35 +1,86 @@
 /******* Customized Bootstrap ********/
-
-$primary: #ff6600;
-$light: #efefef;
+$primary: #DD700B;
+$secondary: #198AAE;
+$light: #ffffff;
+$gray: #F5F5F5;
+.bg-gray {background-color: $gray};
 $dark: #333333;
-
-$font-family-base: 'Arial', sans-serif;
-
-$headings-font-family: 'Times New Roman', sans-serif;
-
-$body-color: #999999;
-
-$headings-color: $dark;
-
+$font-family: 'Arial', sans-serif;
+$body-color: #198AAE;
+$headings-color: $primary;
 $headings-font-weight: 700;
-
-$display-font-weight: 900;
-
-$enable-responsive-font-sizes: true;
-
-$border-color: #ff6600;
-
-$input-border-color: $border-color;
-
-$border-radius: 16px;
-
-$border-radius-sm: $border-radius;
-
-$border-radius-lg: $border-radius;
-
-$link-decoration: none;
-
-$enable-negative-margins: true;
-
+$h1-font-size: 36px;
+$h1-line-height: 41.4px;
+$h2-font-size: 24px;
+$h2-line-height: 27.6px;
+$p-font-size: 16px;
+$p-line-height: 18.4px;
+$border-radius: 5px;
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background-color: darken($primary, 10%) !important;
+	border: 1px solid darken($primary, 10%) !important;
+}
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+	background-color: darken($secondary, 10%) !important;
+	border: 1px solid darken($secondary, 10%) !important;
+}
+nav {
+	padding: 40px 24px 21px 24px;
+	border-bottom: 1px solid $primary;
+	margin-bottom: 39px;
+}
+$navbar-light-toggler-icon-bg: url(../img/burger.svg);
+.active {
+	color: $primary;
+}
+@inlude "bootstrap/scss/mixins/_breakpoints"
+@include media-breakpoint-down(sm) {
+	nav {
+		background: $primary;
+		color: white;
+	}
+}
+.nav-link {
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 20.7px;
+	color: $secondary !important;
+	font-weight: 700;
+}
+$nav-link-hover-color: darken($primary, 10%) !important;
+.active {
+	color: $primary !important;
+}
+footer {
+	border-top: 1px solid $primary;
+	font-size: 14px;
+	line-height: 16.1px;
+	color: $primary;
+	padding-top: 8px;
+	padding-bottom: 26px;
+	margin-top: 49px;
+	text-align: center;
+}
+$spacer: 0.625rem;
+$nav-link-padding-y: $spacer * 2;
+$nav-link-padding-x: $spacer * 2 !important;
+$spacers: (
+	0: 0,
+	1: $spacer * 1,
+	2: $spacer * 2,
+	3: $spacer * 3,
+	4: $spacer * 4,
+	5: $spacer * 5,
+);
+$modal-inner-padding: 0.813rem;
+$modal-content-border-radius: none;
+$modal-md: 554px;
+.modal-content {
+	width: $modal-md !important;
+	max-width: 100% !important;
+	border: none !important;
+}
+$modal-inner-padding: 0;
+$modal-backdrop-bg: #000000;
+$modal-backdrop-opacity: .7;
 @import "bootstrap/scss/bootstrap";
