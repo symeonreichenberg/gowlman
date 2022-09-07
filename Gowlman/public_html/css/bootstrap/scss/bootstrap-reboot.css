@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
-/* line 16, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 16, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 *,
 *::before,
 *::after {
@@ -13,13 +13,13 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  /* line 28, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+  /* line 28, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
   :root {
     scroll-behavior: smooth;
   }
 }
 
-/* line 46, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 46, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -32,7 +32,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 65, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 65, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -41,12 +41,12 @@ hr {
   opacity: 0.25;
 }
 
-/* line 73, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 73, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 hr:not([size]) {
   height: 1px;
 }
 
-/* line 84, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 84, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -54,71 +54,71 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-/* line 94, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 94, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 
 @media (min-width: 1200px) {
-  /* line 94, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+  /* line 94, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
   h1 {
     font-size: 2.5rem;
   }
 }
 
-/* line 99, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 99, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
 
 @media (min-width: 1200px) {
-  /* line 99, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+  /* line 99, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
   h2 {
     font-size: 2rem;
   }
 }
 
-/* line 104, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 104, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
 
 @media (min-width: 1200px) {
-  /* line 104, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+  /* line 104, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
   h3 {
     font-size: 1.75rem;
   }
 }
 
-/* line 109, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 109, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
 
 @media (min-width: 1200px) {
-  /* line 109, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+  /* line 109, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
   h4 {
     font-size: 1.5rem;
   }
 }
 
-/* line 114, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 114, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 h5 {
   font-size: 1.25rem;
 }
 
-/* line 119, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 119, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 h6 {
   font-size: 1rem;
 }
 
-/* line 130, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 130, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/* line 143, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 143, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 abbr[title],
 abbr[data-bs-original-title] {
   text-decoration: underline dotted;
@@ -126,20 +126,20 @@ abbr[data-bs-original-title] {
   text-decoration-skip-ink: none;
 }
 
-/* line 153, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 153, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
 }
 
-/* line 162, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 162, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ol,
 ul {
   padding-left: 2rem;
 }
 
-/* line 167, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 167, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ol,
 ul,
 dl {
@@ -147,7 +147,7 @@ dl {
   margin-bottom: 1rem;
 }
 
-/* line 174, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 174, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ol ol,
 ul ul,
 ol ul,
@@ -155,40 +155,40 @@ ul ol {
   margin-bottom: 0;
 }
 
-/* line 181, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 181, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 dt {
   font-weight: 700;
 }
 
-/* line 187, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 187, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 dd {
   margin-bottom: .5rem;
   margin-left: 0;
 }
 
-/* line 195, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 195, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 blockquote {
   margin: 0 0 1rem;
 }
 
-/* line 204, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 204, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 b,
 strong {
   font-weight: bolder;
 }
 
-/* line 214, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 214, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 small {
   font-size: 0.875em;
 }
 
-/* line 221, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 221, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 mark {
   padding: 0.2em;
   background-color: #fcf8e3;
 }
 
-/* line 232, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 232, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 sub,
 sup {
   position: relative;
@@ -197,34 +197,34 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 240, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 240, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 sub {
   bottom: -.25em;
 }
 
-/* line 241, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 241, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 sup {
   top: -.5em;
 }
 
-/* line 246, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 246, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 a {
   color: #0d6efd;
   text-decoration: underline;
 }
 
-/* line 250, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 250, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 a:hover {
   color: #0a58ca;
 }
 
-/* line 262, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 262, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 272, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 272, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 pre,
 code,
 kbd,
@@ -235,7 +235,7 @@ samp {
   unicode-bidi: bidi-override;
 }
 
-/* line 286, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 286, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 pre {
   display: block;
   margin-top: 0;
@@ -244,26 +244,26 @@ pre {
   font-size: 0.875em;
 }
 
-/* line 295, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 295, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 pre code {
   font-size: inherit;
   color: inherit;
   word-break: normal;
 }
 
-/* line 302, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 302, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 code {
   font-size: 0.875em;
   color: #d63384;
   word-wrap: break-word;
 }
 
-/* line 308, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 308, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 a > code {
   color: inherit;
 }
 
-/* line 313, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 313, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
@@ -272,31 +272,31 @@ kbd {
   border-radius: 0.2rem;
 }
 
-/* line 320, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 320, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 kbd kbd {
   padding: 0;
   font-size: 1em;
   font-weight: 700;
 }
 
-/* line 332, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 332, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 figure {
   margin: 0 0 1rem;
 }
 
-/* line 339, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 339, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 img,
 svg {
   vertical-align: middle;
 }
 
-/* line 349, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 349, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 table {
   caption-side: bottom;
   border-collapse: collapse;
 }
 
-/* line 354, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 354, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -304,13 +304,13 @@ caption {
   text-align: left;
 }
 
-/* line 365, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 365, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
 }
 
-/* line 371, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 371, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 thead,
 tbody,
 tfoot,
@@ -322,22 +322,22 @@ th {
   border-width: 0;
 }
 
-/* line 387, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 387, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 label {
   display: inline-block;
 }
 
-/* line 394, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 394, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 button {
   border-radius: 0;
 }
 
-/* line 404, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 404, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 button:focus:not(:focus-visible) {
   outline: 0;
 }
 
-/* line 410, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 410, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 input,
 button,
 select,
@@ -349,33 +349,33 @@ textarea {
   line-height: inherit;
 }
 
-/* line 422, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 422, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 429, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 429, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 [role="button"] {
   cursor: pointer;
 }
 
-/* line 433, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 433, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 select {
   word-wrap: normal;
 }
 
-/* line 439, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 439, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 select:disabled {
   opacity: 1;
 }
 
-/* line 447, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 447, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 [list]::-webkit-calendar-picker-indicator {
   display: none;
 }
 
-/* line 456, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 456, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -383,7 +383,7 @@ button,
   -webkit-appearance: button;
 }
 
-/* line 463, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 463, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -391,18 +391,18 @@ button:not(:disabled),
   cursor: pointer;
 }
 
-/* line 471, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 471, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ::-moz-focus-inner {
   padding: 0;
   border-style: none;
 }
 
-/* line 478, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 478, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 489, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 489, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 fieldset {
   min-width: 0;
   padding: 0;
@@ -410,7 +410,7 @@ fieldset {
   border: 0;
 }
 
-/* line 501, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 501, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 legend {
   float: left;
   width: 100%;
@@ -421,18 +421,18 @@ legend {
 }
 
 @media (min-width: 1200px) {
-  /* line 501, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+  /* line 501, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
   legend {
     font-size: 1.5rem;
   }
 }
 
-/* line 510, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 510, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 legend + * {
   clear: left;
 }
 
-/* line 518, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 518, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-text,
 ::-webkit-datetime-edit-minute,
@@ -443,12 +443,12 @@ legend + * {
   padding: 0;
 }
 
-/* line 528, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 528, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ::-webkit-inner-spin-button {
   height: auto;
 }
 
-/* line 538, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 538, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
@@ -462,49 +462,49 @@ legend + * {
   direction: ltr;
 }
 */
-/* line 559, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 559, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 565, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 565, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ::-webkit-color-swatch-wrapper {
   padding: 0;
 }
 
-/* line 572, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 572, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ::file-selector-button {
   font: inherit;
 }
 
-/* line 579, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 579, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
 }
 
-/* line 586, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 586, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 output {
   display: inline-block;
 }
 
-/* line 592, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 592, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 iframe {
   border: 0;
 }
 
-/* line 600, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 600, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 summary {
   display: list-item;
   cursor: pointer;
 }
 
-/* line 610, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 610, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 progress {
   vertical-align: baseline;
 }
 
-/* line 619, ../../Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
+/* line 619, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap/scss/_reboot.scss */
 [hidden] {
   display: none !important;
 }

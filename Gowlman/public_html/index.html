@@ -11,15 +11,16 @@
 		<link href="css/style.css" rel="stylesheet"/>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light">
+		<nav id="nav" class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 				<div id="brand">
 					<a class="navbar-brand" href="#">
 						<img src="img/logo.svg" class="logo"/>
 					</a>
 				</div>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle nav">
+				<button class="navbar-toggler" id="toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle nav" onclick="changeMenu()">
 					<span class="navbar-toggler-icon"></span>
+					<span class="close"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarContent">
 					<ul class="navbar-nav">
@@ -35,18 +36,18 @@
 		</nav>
 		<section id="full-width">
 			<div class="container">
-				<div class="row gx-4 flex-row justify-content-stretch align-items-stretch mb-5">
-					<div class="col-lg-5 col-12 pe-0">
+				<div class="row gx-xl-4 gx-0 flex-lg-row flex-column justify-content-stretch align-items-stretch mb-5">
+					<div class="col-xl-5 col-12 pe-0">
 						<div class="p-2 bg-gray">
 							<img src="img/owl.png" class="w-100"/>
 						</div>
 					</div>
-					<div class="col-lg-7 col-12 ps-0 d-flex justify-content-between align-items-stretch">
-						<div class="bg-gray p-2 ps-lg-0 ps-2 d-flex flex-column justify-content-between">
+					<div class="col-xl-7 col-12 ps-0 d-flex justify-content-between align-items-stretch">
+						<div class="bg-gray p-2 d-flex flex-column justify-content-between">
 							<h1>I am a gowlman!</h1>
 							<p>Vych prán titě moušlu tič šlam. Uťa zkedi vlyskájni pi? Blaťti dlavlá i zrýčla. O uněň žlá ďůtrch v vyřo ústuj k ogro udi štašt. Mounětlysrýď uhrýl i dip? Frarůk nibru a řuď? úcet tlužvičí pech déju zkykřoužlarfů zrest hrtist lyglách křaz děpocrutře.</p>
 							<p>Ni v pamy tě vyněsk srustý zkeď něstkuhlabyž slydi pemi a vuj, zezru niz skýz punib někro ně umoni bydim, nidli tičfrebiřou. Vot těďti sle. Drutlíd zlytěd moc nibí.</p>
-							<button class="btn btn-primary align-self-end px-4" data-bs-toggle="modal" data-bs-target="#modal">bedlaaa!</button>
+							<button class="btn btn-primary align-self-end px-4">bedlaaa!</button>
 						</div>
 					</div>
 				</div>
@@ -55,43 +56,43 @@
 		<section id="portaits">
 			<div class="container">
 				<div class="row gx-4">
-					<div class="col-xl col-lg-6 col-12">
-						<div class="bg-gray p-3">
+					<div class="col-xl col-lg-6 col-12 pb-sm-4">
+						<div class="bg-gray p-3 d-flex flex-column">
 							<img src="img/head.png" class="head rounded-circle align-self-center mb-3"/>
 							<h2>Drutlíd zlytěd</h2>
 							<p>Vych prán titě moušlu tič šlam. Uťa zkedi vlyskájni pi? Blaťti dlavlá i zrýčla.</p>
 							<div class="d-grid">
-								<button class="btn btn-secondary">play!</button>
+								<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal">play!</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl col-lg-6 col-12 pb-sm-4">
+						<div class="bg-gray p-3 d-flex flex-column">
+							<img src="img/head.png" class="head rounded-circle align-self-center mb-3"/>
+							<h2>Drutlíd zlytěd</h2>
+							<p>Vych prán titě moušlu tič šlam. Uťa zkedi vlyskájni pi? Blaťti dlavlá i zrýčla.</p>
+							<div class="d-grid">
+								<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal">play!</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl col-lg-6 col-12 pb-sm-4">
+						<div class="bg-gray p-3 d-flex flex-column">
+							<img src="img/head.png" class="head rounded-circle align-self-center mb-3"/>
+							<h2>Drutlíd zlytěd</h2>
+							<p>Vych prán titě moušlu tič šlam. Uťa zkedi vlyskájni pi? Blaťti dlavlá i zrýčla.</p>
+							<div class="d-grid">
+								<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal">play!</button>
 							</div>
 						</div>
 					</div>
 					<div class="col-xl col-lg-6 col-12">
-						<div class="bg-gray p-3">
+						<div class="bg-gray p-3 d-flex flex-column">
 							<img src="img/head.png" class="head rounded-circle align-self-center mb-3"/>
 							<h2>Drutlíd zlytěd</h2>
 							<p>Vych prán titě moušlu tič šlam. Uťa zkedi vlyskájni pi? Blaťti dlavlá i zrýčla.</p>
 							<div class="d-grid">
-								<button class="btn btn-secondary">play!</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl col-lg-6 col-12">
-						<div class="bg-gray p-3">
-							<img src="img/head.png" class="head rounded-circle align-self-center mb-3"/>
-							<h2>Drutlíd zlytěd</h2>
-							<p>Vych prán titě moušlu tič šlam. Uťa zkedi vlyskájni pi? Blaťti dlavlá i zrýčla.</p>
-							<div class="d-grid">
-								<button class="btn btn-secondary">play!</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl col-lg-6 col-12">
-						<div class="bg-gray p-3">
-							<img src="img/head.png" class="head rounded-circle align-self-center mb-3"/>
-							<h2>Drutlíd zlytěd</h2>
-							<p>Vych prán titě moušlu tič šlam. Uťa zkedi vlyskájni pi? Blaťti dlavlá i zrýčla.</p>
-							<div class="d-grid">
-								<button class="btn btn-secondary">play!</button>
+								<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal">play!</button>
 							</div>
 						</div>
 					</div>
@@ -108,6 +109,7 @@
 			</footer>
 		</div>
 		<div class="modal modal-md fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-body">
@@ -117,5 +119,23 @@
 			</div>
 		</div>
 		<script src="js/bootstrap.bundle.js"></script>
+		<script>
+			function changeMenu(){
+				var nav = document.getElementById('nav');
+				var navbarContent = document.getElementById('navbarContent');
+				var logo = document.getElementById('logo');
+				var backgroundColor = nav.style.backgroundColor;
+				console.log(backgroundColor);
+				if (backgroundColor === 'rgb(221, 112, 11)') {
+					nav.style.backgroundColor = 'white';
+					navbarContent.style.backgroundColor = 'white';
+					logo.style.display = 'none';
+				} else {
+					nav.style.backgroundColor = 'rgb(221, 112, 11)';
+					navbarContent.style.backgroundColor = 'rgb(221, 112, 11)';
+					logo.style.display = 'inline-block';
+				}
+			};
+		</script>
 	</body>
 </html>

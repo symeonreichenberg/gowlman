@@ -5,6 +5,15 @@ $light: #ffffff;
 $gray: #F5F5F5;
 .bg-gray {background-color: $gray};
 $dark: #333333;
+$spacer: 0.625rem;
+$spacers: (
+	0: 0,
+	1: $spacer * 1, 
+	2: $spacer * 2,
+	3: $spacer * 3,
+	4: $spacer * 4,
+	5: $spacer * 5,
+);
 $font-family: 'Arial', sans-serif;
 $body-color: #198AAE;
 $headings-color: $primary;
@@ -16,6 +25,8 @@ $h2-line-height: 27.6px;
 $p-font-size: 16px;
 $p-line-height: 18.4px;
 $border-radius: 5px;
+$input-btn-focus-box-shadow: none !important;
+@import "bootstrap/scss/bootstrap";
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
 	background-color: darken($primary, 10%) !important;
 	border: 1px solid darken($primary, 10%) !important;
@@ -29,27 +40,78 @@ nav {
 	border-bottom: 1px solid $primary;
 	margin-bottom: 39px;
 }
-$navbar-light-toggler-icon-bg: url(../img/burger.svg);
+.navbar-toggler {
+	border: none;
+	transition: none;
+	&:focus {
+		box-shadow: none !important;
+	}
+}
+nav[aria-expanded="false"] {
+	background: transparent;
+}
+.navbar-toggler-icon {
+	background-image: url('../img/burger.svg') !important;
+}
+.navbar button[aria-expanded="true"] > span.close {
+	display: inline-block;
+}
+.navbar button[aria-expanded="true"] > span.navbar-toggler-icon {
+	display: none;
+}
+.navbar button[aria-expanded="false"] > span.close {
+	display: none;
+}
+.close {
+	background-image: url('../img/close.svg');
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
 .active {
 	color: $primary;
-}
-@inlude "bootstrap/scss/mixins/_breakpoints"
-@include media-breakpoint-down(sm) {
-	nav {
-		background: $primary;
-		color: white;
-	}
 }
 .nav-link {
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 20.7px;
-	color: $secondary !important;
+	color: $secondary;
 	font-weight: 700;
 }
 $nav-link-hover-color: darken($primary, 10%) !important;
 .active {
 	color: $primary !important;
+}
+$nav-link-padding-y: $spacer * 2;
+$nav-link-padding-x: $spacer * 2 !important;
+.navbar-brand {
+	margin-right: $spacer * 3;
+}
+.navbar-brand > img {
+	width: $spacer * 7;
+}
+@include media-breakpoint-down(lg) {
+	body {
+		margin-top: 100px;
+	}
+	nav {
+		background: white;
+	}
+	.logo {
+		width: 40px !important;
+	}
+	.nav-link, .active {
+		color: white !important;
+	}
+	nav {
+		position: fixed !important;
+		top: 0;
+		width: 100%;
+	}
+	.navbar-collapse {
+		background: $primary;
+		padding-bottom: $spacer * 4 !important;
+	}
 }
 footer {
 	border-top: 1px solid $primary;
@@ -61,17 +123,15 @@ footer {
 	margin-top: 49px;
 	text-align: center;
 }
-$spacer: 0.625rem;
-$nav-link-padding-y: $spacer * 2;
-$nav-link-padding-x: $spacer * 2 !important;
-$spacers: (
-	0: 0,
-	1: $spacer * 1,
-	2: $spacer * 2,
-	3: $spacer * 3,
-	4: $spacer * 4,
-	5: $spacer * 5,
-);
+.btn {
+	color: #ffffff !important;
+	font-size: 24px;
+	line-height: 27.6px;
+	font-weight: 700;
+}
+.head {
+	width: 190px;
+}
 $modal-inner-padding: 0.813rem;
 $modal-content-border-radius: none;
 $modal-md: 554px;
@@ -83,4 +143,21 @@ $modal-md: 554px;
 $modal-inner-padding: 0;
 $modal-backdrop-bg: #000000;
 $modal-backdrop-opacity: .7;
-@import "bootstrap/scss/bootstrap";
+.btn-close {
+	position: absolute;
+	top: $spacer * 2 !important;
+	right: $spacer * 2 !important;
+	width: $spacer * 3;
+	height: $spacer * 3;
+	background-image: url(../img/close.svg) !important;
+	background-size: cover;
+	padding: 0 !important;
+	z-index: 9999 !important;
+}
+body.modal-open .modal {
+	display: flex !important;
+	height: 100%;
+}
+body.modal-open .modal .modal-dialog {
+	margin: auto;
+}
