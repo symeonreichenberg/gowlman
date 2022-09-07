@@ -12532,61 +12532,71 @@ fieldset:disabled .btn {
 }
 
 /* line 30, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+.background-primary {
+  background-color: #dd700b;
+}
+
+/* line 33, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+.background-secondary {
+  background-color: #198aae;
+}
+
+/* line 36, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
   background-color: #ac5709 !important;
   border: 1px solid #ac5709 !important;
 }
 
-/* line 34, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 40, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
   background-color: #136781 !important;
   border: 1px solid #136781 !important;
 }
 
-/* line 38, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 44, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 nav {
   padding: 40px 24px 21px 24px;
   border-bottom: 1px solid #DD700B;
   margin-bottom: 39px;
 }
 
-/* line 43, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 49, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .navbar-toggler {
   border: none;
   transition: none;
 }
 
-/* line 46, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 52, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
 
-/* line 50, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 56, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 nav[aria-expanded="false"] {
   background: transparent;
 }
 
-/* line 53, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 59, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .navbar-toggler-icon {
   background-image: url("../img/burger.svg") !important;
 }
 
-/* line 56, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 62, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .navbar button[aria-expanded="true"] > span.close {
   display: inline-block;
 }
 
-/* line 59, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 65, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .navbar button[aria-expanded="true"] > span.navbar-toggler-icon {
   display: none;
 }
 
-/* line 62, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 68, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .navbar button[aria-expanded="false"] > span.close {
   display: none;
 }
 
-/* line 65, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 71, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .close {
   background-image: url("../img/close.svg");
   background-size: cover;
@@ -12594,12 +12604,12 @@ nav[aria-expanded="false"] {
   height: 30px;
 }
 
-/* line 71, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 77, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .active {
   color: #DD700B;
 }
 
-/* line 74, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 80, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .nav-link {
   text-transform: uppercase;
   font-size: 18px;
@@ -12608,52 +12618,51 @@ nav[aria-expanded="false"] {
   font-weight: 700;
 }
 
-/* line 82, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 88, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .active {
   color: #DD700B !important;
 }
 
-/* line 87, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 93, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .navbar-brand {
   margin-right: 1.875rem;
 }
 
-/* line 90, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 96, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .navbar-brand > img {
   width: 4.375rem;
 }
 
 @media (max-width: 991.98px) {
-  /* line 94, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+  /* line 100, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
   body {
     margin-top: 100px;
   }
-  /* line 97, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+  /* line 103, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
   nav {
     background: white;
   }
-  /* line 100, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+  /* line 106, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
   .logo {
     width: 40px !important;
   }
-  /* line 103, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+  /* line 109, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
   .nav-link, .active {
     color: white !important;
   }
-  /* line 106, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+  /* line 112, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
   nav {
     position: fixed !important;
     top: 0;
     width: 100%;
   }
-  /* line 111, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+  /* line 117, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
   .navbar-collapse {
-    background: #DD700B;
     padding-bottom: 2.5rem !important;
   }
 }
 
-/* line 116, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 121, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 footer {
   border-top: 1px solid #DD700B;
   font-size: 14px;
@@ -12665,7 +12674,7 @@ footer {
   text-align: center;
 }
 
-/* line 126, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 131, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .btn {
   color: #ffffff !important;
   font-size: 24px;
@@ -12673,19 +12682,19 @@ footer {
   font-weight: 700;
 }
 
-/* line 132, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 137, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .head {
   width: 190px;
 }
 
-/* line 138, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 143, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .modal-content {
   width: 554px !important;
   max-width: 100% !important;
   border: none !important;
 }
 
-/* line 146, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 151, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 .btn-close {
   position: absolute;
   top: 1.25rem !important;
@@ -12698,13 +12707,13 @@ footer {
   z-index: 9999 !important;
 }
 
-/* line 157, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 162, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 body.modal-open .modal {
   display: flex !important;
   height: 100%;
 }
 
-/* line 161, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
+/* line 166, ../../Users/symeon/Documents/NetBeansProjects/gowlman/Gowlman/public_html/scss/bootstrap.scss */
 body.modal-open .modal .modal-dialog {
   margin: auto;
 }

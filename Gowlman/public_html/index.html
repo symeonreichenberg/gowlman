@@ -15,7 +15,7 @@
 			<div class="container">
 				<div id="brand">
 					<a class="navbar-brand" href="#">
-						<img src="img/logo.svg" class="logo"/>
+						<img src="img/logo.svg" id="logo" class="logo"/>
 					</a>
 				</div>
 				<button class="navbar-toggler" id="toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle nav" onclick="changeMenu()">
@@ -121,19 +121,19 @@
 		<script src="js/bootstrap.bundle.js"></script>
 		<script>
 			function changeMenu(){
-				var nav = document.getElementById('nav');
-				var navbarContent = document.getElementById('navbarContent');
-				var logo = document.getElementById('logo');
-				var backgroundColor = nav.style.backgroundColor;
-				console.log(backgroundColor);
-				if (backgroundColor === 'rgb(221, 112, 11)') {
-					nav.style.backgroundColor = 'white';
-					navbarContent.style.backgroundColor = 'white';
-					logo.style.display = 'none';
+				let nav = document.querySelector('nav');
+				var navbarContent = document.querySelector('navbarContent');
+				var logo = document.querySelector('logo');
+				let classes = nav.classList;
+				let result = classes.contains('background-primary');
+				if (result) {
+					nav.classList.remove('background-primary');
+					navbarContent.classList.remove('background-primary');
+					logo.classList.remove('d-none');
 				} else {
-					nav.style.backgroundColor = 'rgb(221, 112, 11)';
-					navbarContent.style.backgroundColor = 'rgb(221, 112, 11)';
-					logo.style.display = 'inline-block';
+					nav.classList.add('background-primary');
+					navbarContent.classList.add('background-primary');
+					logo.classList.add('d-none');
 				}
 			};
 		</script>
